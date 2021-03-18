@@ -1,0 +1,18 @@
+{
+  "name": "file-change",
+  "version": "1.0.0",
+  "description": "Testing the onFileChange callback in snowpack",
+  "author": "Andrew Stoker <Andy.Stoker@iCloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "yarn node build.js"
+
+  },
+  "devDependencies": {
+    "snowpack": "^3.0.13"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.4.0"
+  }
+}
